@@ -1,0 +1,16 @@
+# VS Code settings
+.vscode/*
+
+# Virtual Environments
+venv/
+
+# Sphinx documentation
+docs/_build/
+docs/build/
+
+# sqlite DB
+*/todo.db
+
+*.pyc
+__pycache__/
+*.py[cod]
