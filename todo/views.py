@@ -9,6 +9,7 @@ from todo.api import get_tasks, create_task, delete_task, finish_task
 
 @app.route("/")
 def tasks_list():
+    """ list all the tasks """
     tasks = get_tasks()
     # Render the HTML page located in "templates/application.html"
     # Passing tasks as a variable, so it can be used in the template

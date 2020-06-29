@@ -20,6 +20,3 @@ db = SQLAlchemy(app)
 # Here is another idea how to deal with them:
 # https://stackoverflow.com/a/42910185
 from todo import views  # noqa E402 isort:skip
-
-
-# db.create_all()
