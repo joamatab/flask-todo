@@ -5,6 +5,7 @@ One of the reasons why you might put some code here is convenience.
 All the functions and variables from this file can be imported with just:
 from todo import app, db
 """
+
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
