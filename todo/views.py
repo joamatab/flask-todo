@@ -9,7 +9,7 @@ from todo.api import get_tasks, create_task, delete_task, finish_task
 
 @app.route("/")
 def tasks_list():
-    """ list all the tasks """
+    """list all the tasks"""
     tasks = get_tasks()
     # Render the HTML page located in "templates/application.html"
     # Passing tasks as a variable, so it can be used in the template
@@ -18,7 +18,7 @@ def tasks_list():
 
 @app.route("/task", methods=["POST"])
 def task_create():
-    """ Creates a new task using the body paramenter """
+    """Creates a new task using the body paramenter"""
     body = request.form["body"]
     create_task(body)
     # Redirect user to the main page, so the new task will be displayed
