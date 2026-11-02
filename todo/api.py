@@ -4,7 +4,7 @@ from todo.models import Task, db
 
 
 def get_tasks():
-    """ returns all tasks"""
+    """returns all tasks"""
     return Task.query.all()
 
 
